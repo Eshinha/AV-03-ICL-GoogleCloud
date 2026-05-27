@@ -1,0 +1,10 @@
+Roteiro para entrega da atividade📋
+
+- Criei projeto esh-icl no Google Cloud Console
+- Ativei as APIs: App Engine, Firestore, Cloud Functions, Cloud Build, Cloud Run
+- Criei App Engine na região us-east1
+- Criei banco Firestore em Modo Nativo com ID cloudtasks-db
+- Desenvolvi servidor Node.js com POST /api/tasks salvando no Firestore
+- Fiz deploy do front-end via gcloud app deploy
+- Desenvolvi Cloud Function listTasks listando tarefas em JSON
+- Fiz deploy da função via gcloud functions deploy
